@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepika &amp; Bhaskar — Engagement Ceremony Invitation</title>
+  <meta name="description" content="Together with our families we cordially invite you to the Engagement Ceremony of Deepika Manche & Bhaskar Nagula on Sunday, 6th December 2026 at Kasturba Mahila Mandal Hall, Matunga West, Mumbai." />
+
+  <!-- Open Graph / WhatsApp Link Preview -->
+  <meta property="og:title" content="Deepika & Bhaskar — Engagement Ceremony" />
+  <meta property="og:description" content="Together with our families we cordially invite you to the Engagement Ceremony of Deepika & Bhaskar • Sunday, 6th December 2026 at 9:00 AM onwards • Kasturba Mahila Mandal Hall, Mumbai" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bhaskarnagula.github.io/Bhaskar-Deepika/" />
+
+  <!-- Elegant Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: {
+              50: '#FDFBF7',
+              100: '#FAF6EE',
+              200: '#F4EDE0',
+              300: '#E7D6B9',
+            },
+            gold: {
+              300: '#DFC07A',
+              400: '#D4AF37',
+              500: '#B8860B',
+              600: '#8F6722',
+              700: '#6E4D16',
+            },
+            blush: {
+              100: '#FBECE8',
+              200: '#F4D3CA',
+              300: '#E8B4B8',
+              400: '#D18978',
+            },
+            sage: {
+              500: '#7A8B69',
+              600: '#55614A',
+            },
+            ink: {
+              800: '#2C221E',
+              600: '#5C4D44',
+              400: '#8A7B6A',
+            }
+          },
+          fontFamily: {
+            script: ['"Great Vibes"', '"Alex Brush"', 'cursive'],
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Montserrat"', 'sans-serif'],
+          },
+          boxShadow: {
+            'card': '0 24px 60px -15px rgba(110, 77, 22, 0.16)',
+            'gold-glow': '0 10px 28px -6px rgba(176, 132, 53, 0.30)',
+            'seal': '0 14px 30px rgba(92, 58, 12, 0.38), inset 0 2px 6px rgba(255, 245, 214, 0.65)',
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Warm Textured Ivory Parchment Background */
+    body {
+      background-color: #FAF6EE;
+      background-image:
+        radial-gradient(circle at 12% 18%, rgba(244, 211, 202, 0.25) 0%, transparent 45%),
+        radial-gradient(circle at 88% 82%, rgba(223, 192, 122, 0.20) 0%, transparent 45%),
+        url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='paper'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23paper)' opacity='0.035'/%3E%3C/svg%3E");
+      color: #2C221E;
+      overflow-x: hidden;
+    }
+
+    /* Gold Foil Shimmer Effect */
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #8B6914 0%, #D4AF37 42%, #7D5818 72%, #B8860B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 220% auto;
+      animation: goldShimmer 7s linear infinite;
+    }
+
+    @keyframes goldShimmer {
+      0% { background-position: 0% center; }
+      100% { background-position: 220% center; }
+    }
+
+    /* Double-Arch Frame matching the Floral Invitation Card */
+    .arch-frame-outer {
+      border: 1.5px solid #D4AF37;
+      border-radius: 250px 250px 24px 24px;
+      position: relative;
+    }
+    .arch-frame-inner {
+      border: 1px solid rgba(212, 175, 55, 0.65);
+      border-radius: 242px 242px 18px 18px;
+    }
+
+    @media (max-width: 640px) {
+      .arch-frame-outer {
+        border-radius: 175px 175px 20px 20px;
+      }
+      .arch-frame-inner {
+        border-radius: 168px 168px 14px 14px;
+      }
+    }
+
+    /* Wax-Seal Envelope Reveal Overlay */
+    #envelope-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 60;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at center, #FDFBF7 0%, #F4EDE0 65%, #E7D6B9 100%);
+      transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.9s ease;
+    }
+    #envelope-overlay.opened {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .envelope-flap-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 54%;
+      background: linear-gradient(180deg, #F6EEDD 0%, #EFE2C8 100%);
+      clip-path: polygon(0 0, 100% 0, 50% 100%);
+      border-bottom: 2px solid #D4AF37;
+      transform-origin: top center;
+      transition: transform 0.95s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 12px 30px rgba(110, 77, 22, 0.12);
+    }
+    #envelope-overlay.opening .envelope-flap-top {
+      transform: translateY(-105%);
+    }
+
+    .envelope-flap-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 54%;
+      background: linear-gradient(0deg, #F8F1E3 0%, #F1E5CE 100%);
+      clip-path: polygon(0 100%, 100% 100%, 50% 0);
+      transform-origin: bottom center;
+      transition: transform 0.95s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    #envelope-overlay.opening .envelope-flap-bottom {
+      transform: translateY(105%);
+    }
+
+    /* Embossed Gold Wax Seal Button */
+    .wax-seal-btn {
+      background: radial-gradient(circle at 32% 30%, #E7C87D 0%, #C49743 48%, #8B6914 92%, #734F12 100%);
+      box-shadow: 0 14px 32px rgba(92, 58, 12, 0.38), inset 0 2px 5px rgba(255, 248, 224, 0.7), inset 0 -3px 6px rgba(77, 49, 8, 0.55);
+      transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+    }
+    .wax-seal-btn:hover {
+      transform: scale(1.06);
+      box-shadow: 0 18px 38px rgba(92, 58, 12, 0.45), inset 0 2px 6px rgba(255, 248, 224, 0.85);
+    }
+    .wax-seal-btn:active {
+      transform: scale(0.97);
+    }
+
+    @keyframes pulseRing {
+      0% { transform: scale(0.96); opacity: 0.75; }
+      70% { transform: scale(1.22); opacity: 0; }
+      100% { transform: scale(1.22); opacity: 0; }
+    }
+    .seal-pulse-ring {
+      animation: pulseRing 2.6s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+    }
+
+    /* Scroll Reveal Animations */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1), transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Gentle Floral Sway */
+    .floral-sway-top {
+      transform-origin: top left;
+      animation: gentleSway 8s ease-in-out infinite alternate;
+    }
+    .floral-sway-bottom {
+      transform-origin: bottom right;
+      animation: gentleSway 9s ease-in-out infinite alternate-reverse;
+    }
+    @keyframes gentleSway {
+      0% { transform: rotate(0deg) scale(1); }
+      100% { transform: rotate(1.4deg) scale(1.015); }
+    }
+  </style>
+</head>
+<body class="font-sans antialiased selection:bg-blush-200 selection:text-ink-800">
+
+  <!-- =========================================================
+       WAX-SEAL ENVELOPE OPENING OVERLAY (D & B — BRIDE FIRST)
+       ========================================================= -->
+  <div id="envelope-overlay" role="dialog" aria-modal="true" aria-label="Engagement Invitation Envelope">
+    <div class="envelope-flap-bottom"></div>
+    <div class="envelope-flap-top"></div>
+
+    <!-- Center Monogram Seal & Prompt -->
+    <div class="relative z-20 flex flex-col items-center px-6 text-center">
+      <p class="mb-4 font-serif text-xs sm:text-sm font-semibold tracking-[0.28em] text-gold-700 uppercase">
+        Engagement Ceremony Invitation
+      </p>
+
+      <div class="relative flex items-center justify-center">
+        <!-- Expanding Gold Pulse Halo -->
+        <span class="seal-pulse-ring pointer-events-none absolute h-32 w-32 sm:h-36 sm:w-36 rounded-full border-2 border-gold-400"></span>
+
+        <!-- Interactive Embossed Wax Seal -->
+        <button
+          type="button"
+          id="open-envelope-btn"
+          onclick="openEnvelope()"
+          aria-label="Tap the gold wax seal to open invitation"
+          class="wax-seal-btn relative flex h-28 w-28 sm:h-32 sm:w-32 cursor-pointer flex-col items-center justify-center rounded-full border-2 border-gold-300/80 text-cream-50 focus:outline-none focus:ring-4 focus:ring-gold-400/40"
+        >
+          <span class="pointer-events-none absolute inset-1.5 rounded-full border border-cream-50/40"></span>
+          <span class="font-script text-3xl sm:text-4xl tracking-wide text-cream-50 drop-shadow-sm">D &amp; B</span>
+          <span class="mt-0.5 text-[9px] font-semibold tracking-[0.22em] text-cream-100/90 uppercase">06•12•26</span>
+        </button>
+      </div>
+
+      <h2 class="mt-6 font-serif text-2xl sm:text-3xl font-semibold text-ink-800">
+        Deepika &amp; Bhaskar
+      </h2>
+      <p class="mt-1.5 font-serif italic text-base sm:text-lg text-ink-600">
+        Tap Seal to Open Invitation
+      </p>
+
+      <button
+        type="button"
+        onclick="openEnvelope(true)"
+        class="mt-5 text-[11px] font-medium tracking-widest text-gold-700/80 underline underline-offset-4 hover:text-gold-700 uppercase"
+      >
+        Open Silently
+      </button>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       AMBIENT GOLD DUST & PETALS HTML5 CANVAS
+       ========================================================= -->
+  <canvas id="gold-dust-canvas" class="pointer-events-none fixed inset-0 z-0" aria-hidden="true"></canvas>
+
+  <!-- =========================================================
+       FLOATING TOP NAVIGATION BAR & AUDIO TOGGLE
+       ========================================================= -->
+  <header class="sticky top-3 z-40 mx-auto flex max-w-3xl items-center justify-between gap-2 px-4">
+    <nav aria-label="Invitation Sections" class="mx-auto flex items-center gap-2.5 sm:gap-5 rounded-full border border-gold-300/80 bg-cream-50/90 px-4 sm:px-6 py-2.5 text-[11px] sm:text-xs font-medium text-ink-600 shadow-sm backdrop-blur-md">
+      <a href="#invitation" class="hover:text-gold-600 transition-colors">Invitation</a>
+      <span class="text-gold-300">•</span>
+      <a href="#countdown" class="hover:text-gold-600 transition-colors">Countdown</a>
+      <span class="text-gold-300">•</span>
+      <a href="#schedule" class="hover:text-gold-600 transition-colors">Schedule</a>
+      <span class="text-gold-300">•</span>
+      <a href="#venue" class="hover:text-gold-600 transition-colors">Venue</a>
+      <span class="text-gold-300">•</span>
+      <a href="#blessings" class="hover:text-gold-600 transition-colors">Blessings</a>
+    </nav>
+
+    <!-- Floating Ambient Music Mute/Unmute Toggle -->
+    <button
+      type="button"
+      id="audio-toggle-btn"
+      onclick="toggleAmbientMusic()"
+      aria-label="Toggle ambient celebration chimes"
+      title="Toggle Ambient Music"
+      class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-gold-300/80 bg-cream-50/90 text-gold-700 shadow-sm backdrop-blur-md transition hover:bg-cream-200/70"
+    >
+      <svg id="icon-sound-off" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11 5L6 9H2v6h4l5 4V5zM23 9l-6 6M17 9l6 6"></path>
+      </svg>
+      <svg id="icon-sound-on" class="hidden h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11 5L6 9H2v6h4l5 4V5zM15.54 8.46a5 5 0 010 7.07M19.07 4.93a10 10 0 010 14.14"></path>
+      </svg>
+    </button>
+  </header>
+
+  <!-- =========================================================
+       MAIN CONTENT CONTAINER
+       ========================================================= -->
+  <main class="relative z-10 mx-auto max-w-3xl px-4 pt-5 pb-20 sm:px-6">
+
+    <!-- =========================================================
+         SECTION 1: HERO ARCH INVITATION CARD (BRIDE 1ST, GROOM 2ND)
+         ========================================================= -->
+    <section id="invitation" class="relative mx-auto mt-1">
+      <div class="arch-frame-outer bg-cream-50/95 p-2 sm:p-3 shadow-card">
+        <div class="arch-frame-inner relative overflow-hidden bg-gradient-to-b from-cream-50 via-cream-100/75 to-cream-50 px-5 py-14 sm:px-12 sm:py-20 text-center">
+
+          <!-- Top-Left Watercolor Blush & Ivory Peony Floral Artwork -->
+          <svg class="floral-sway-top pointer-events-none absolute -top-3 -left-3 w-44 sm:w-64 md:w-72 h-auto opacity-95" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <radialGradient id="ivoryPetal" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#FFFDF9"/>
+                <stop offset="70%" stop-color="#F6EAD7"/>
+                <stop offset="100%" stop-color="#E2C89F"/>
+              </radialGradient>
+              <radialGradient id="blushPetal" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#FDECE8"/>
+                <stop offset="65%" stop-color="#F2B8AA"/>
+                <stop offset="100%" stop-color="#D98B79"/>
+              </radialGradient>
+              <linearGradient id="sageLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8A997B"/>
+                <stop offset="100%" stop-color="#536047"/>
+              </linearGradient>
+              <linearGradient id="goldLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#E4C57E"/>
+                <stop offset="100%" stop-color="#B8860B"/>
+              </linearGradient>
+            </defs>
+            <path d="M18 195 C45 140, 110 70, 210 22" stroke="#8A7039" stroke-width="1.5" fill="none"/>
+            <path d="M35 235 C30 165, 55 95, 115 35" stroke="#7A8B69" stroke-width="1.4" fill="none"/>
+            <path d="M135 55 C155 30, 185 28, 195 45 C175 58, 150 62, 135 55 Z" fill="url(#sageLeaf)" opacity="0.88"/>
+            <path d="M55 150 C25 145, 12 170, 25 188 C45 180, 58 165, 55 150 Z" fill="url(#sageLeaf)" opacity="0.88"/>
+            <path d="M40 190 C15 200, 10 228, 26 240 C42 226, 48 206, 40 190 Z" fill="url(#sageLeaf)" opacity="0.82"/>
+            <path d="M100 115 C115 135, 110 162, 92 168 C84 148, 88 128, 100 115 Z" fill="url(#sageLeaf)" opacity="0.82"/>
+            <path d="M175 32 C195 15, 222 14, 232 26 C214 38, 192 40, 175 32 Z" fill="url(#goldLeaf)" opacity="0.85"/>
+            <path d="M72 175 C85 192, 82 215, 68 222 C60 205, 62 188, 72 175 Z" fill="url(#goldLeaf)" opacity="0.8"/>
+            <circle cx="242" cy="18" r="3" fill="#D4AF37"/>
+            <circle cx="225" cy="38" r="2.5" fill="#D4AF37"/>
+            <circle cx="52" cy="245" r="2.5" fill="#D4AF37"/>
+
+            <g transform="translate(115, 68)">
+              <ellipse cx="0" cy="-26" rx="22" ry="18" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <ellipse cx="25" cy="-12" rx="22" ry="18" transform="rotate(55 25 -12)" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <ellipse cx="18" cy="20" rx="22" ry="18" transform="rotate(125 18 20)" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <ellipse cx="-18" cy="20" rx="22" ry="18" transform="rotate(-125 -18 20)" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <ellipse cx="-25" cy="-12" rx="22" ry="18" transform="rotate(-55 -25 -12)" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <circle cx="0" cy="0" r="18" fill="#FAF2E4" stroke="#DFC07A" stroke-width="0.7"/>
+              <circle cx="0" cy="0" r="8" fill="#D4A446"/>
+              <circle cx="-3" cy="-3" r="1.5" fill="#7D5818"/>
+              <circle cx="4" cy="-2" r="1.5" fill="#7D5818"/>
+              <circle cx="0" cy="4" r="1.5" fill="#7D5818"/>
+            </g>
+
+            <g transform="translate(55, 118)">
+              <ellipse cx="0" cy="-22" rx="19" ry="15" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <ellipse cx="21" cy="-8" rx="19" ry="15" transform="rotate(60 21 -8)" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <ellipse cx="14" cy="18" rx="19" ry="15" transform="rotate(130 14 18)" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <ellipse cx="-16" cy="16" rx="19" ry="15" transform="rotate(-130 -16 16)" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <ellipse cx="-21" cy="-9" rx="19" ry="15" transform="rotate(-60 -21 -9)" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <circle cx="0" cy="0" r="14" fill="#FBE6E0"/>
+              <circle cx="0" cy="0" r="6.5" fill="#C9963E"/>
+            </g>
+
+            <g transform="translate(32, 168)">
+              <circle cx="0" cy="-9" r="7" fill="#FFFDF9" stroke="#E0C89B" stroke-width="0.5"/>
+              <circle cx="8" cy="-2" r="7" fill="#FFFDF9" stroke="#E0C89B" stroke-width="0.5"/>
+              <circle cx="5" cy="7" r="7" fill="#FFFDF9" stroke="#E0C89B" stroke-width="0.5"/>
+              <circle cx="-5" cy="7" r="7" fill="#FFFDF9" stroke="#E0C89B" stroke-width="0.5"/>
+              <circle cx="-8" cy="-2" r="7" fill="#FFFDF9" stroke="#E0C89B" stroke-width="0.5"/>
+              <circle cx="0" cy="0" r="4" fill="#D4A446"/>
+            </g>
+          </svg>
+
+          <!-- Bottom-Right Watercolor Blush & Ivory Peony Floral Artwork -->
+          <svg class="floral-sway-bottom pointer-events-none absolute -bottom-3 -right-3 w-44 sm:w-64 md:w-72 h-auto opacity-95 rotate-180" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M18 195 C45 140, 110 70, 210 22" stroke="#8A7039" stroke-width="1.5" fill="none"/>
+            <path d="M35 235 C30 165, 55 95, 115 35" stroke="#7A8B69" stroke-width="1.4" fill="none"/>
+            <path d="M135 55 C155 30, 185 28, 195 45 C175 58, 150 62, 135 55 Z" fill="url(#sageLeaf)" opacity="0.88"/>
+            <path d="M55 150 C25 145, 12 170, 25 188 C45 180, 58 165, 55 150 Z" fill="url(#sageLeaf)" opacity="0.88"/>
+            <path d="M175 32 C195 15, 222 14, 232 26 C214 38, 192 40, 175 32 Z" fill="url(#goldLeaf)" opacity="0.85"/>
+            <g transform="translate(115, 68)">
+              <ellipse cx="0" cy="-26" rx="22" ry="18" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <ellipse cx="25" cy="-12" rx="22" ry="18" transform="rotate(55 25 -12)" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <ellipse cx="18" cy="20" rx="22" ry="18" transform="rotate(125 18 20)" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <ellipse cx="-18" cy="20" rx="22" ry="18" transform="rotate(-125 -18 20)" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <ellipse cx="-25" cy="-12" rx="22" ry="18" transform="rotate(-55 -25 -12)" fill="url(#ivoryPetal)" stroke="#D8BC8C" stroke-width="0.6"/>
+              <circle cx="0" cy="0" r="18" fill="#FAF2E4" stroke="#DFC07A" stroke-width="0.7"/>
+              <circle cx="0" cy="0" r="8" fill="#D4A446"/>
+            </g>
+            <g transform="translate(55, 118)">
+              <ellipse cx="0" cy="-22" rx="19" ry="15" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <ellipse cx="21" cy="-8" rx="19" ry="15" transform="rotate(60 21 -8)" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <ellipse cx="14" cy="18" rx="19" ry="15" transform="rotate(130 14 18)" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <ellipse cx="-16" cy="16" rx="19" ry="15" transform="rotate(-130 -16 16)" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <ellipse cx="-21" cy="-9" rx="19" ry="15" transform="rotate(-60 -21 -9)" fill="url(#blushPetal)" stroke="#D48B79" stroke-width="0.6"/>
+              <circle cx="0" cy="0" r="14" fill="#FBE6E0"/>
+              <circle cx="0" cy="0" r="6.5" fill="#C9963E"/>
+            </g>
+          </svg>
+
+          <!-- Top Ornate Gold Flourish -->
+          <div class="relative z-10 mx-auto mb-5 flex items-center justify-center">
+            <svg class="w-40 h-6 text-gold-500" viewBox="0 0 200 28" fill="none">
+              <line x1="10" y1="14" x2="78" y2="14" stroke="currentColor" stroke-width="1" stroke-opacity="0.6"/>
+              <line x1="122" y1="14" x2="190" y2="14" stroke="currentColor" stroke-width="1" stroke-opacity="0.6"/>
+              <path d="M100 3 L104 11 L112 14 L104 17 L100 25 L96 17 L88 14 L96 11 Z" fill="currentColor"/>
+              <circle cx="82" cy="14" r="2" fill="currentColor"/>
+              <circle cx="118" cy="14" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+
+          <!-- Universal Family-Shareable Opening Wording -->
+          <p class="relative z-10 mx-auto max-w-md font-serif text-xs sm:text-sm md:text-base font-semibold tracking-[0.22em] text-ink-800 uppercase leading-relaxed">
+            Together With Our Families<br />We Cordially Invite You To The
+          </p>
+
+          <!-- Main Calligraphic Title -->
+          <h1 class="relative z-10 mt-3 sm:mt-4 font-script text-5xl sm:text-7xl md:text-[5.25rem] leading-[1.08] gold-gradient-text drop-shadow-sm select-none">
+            Engagement<br />Ceremony
+          </h1>
+
+          <!-- Interlocking Engagement Rings & Gold Botanical Sprigs -->
+          <div class="relative z-10 my-5 sm:my-7 flex items-center justify-center gap-3">
+            <svg class="w-16 sm:w-24 h-8 text-gold-500" viewBox="0 0 100 32" fill="none">
+              <path d="M95 18 Q55 16 10 14" stroke="currentColor" stroke-width="1.2"/>
+              <path d="M75 17 C68 8, 56 7, 52 13 C60 16, 68 17, 75 17 Z" fill="currentColor" opacity="0.85"/>
+              <path d="M55 16 C48 7, 36 6, 32 12 C40 15, 48 16, 55 16 Z" fill="currentColor" opacity="0.85"/>
+              <path d="M35 15 C28 7, 18 6, 14 11 C21 14, 28 15, 35 15 Z" fill="currentColor" opacity="0.85"/>
+              <path d="M65 17 C58 25, 46 26, 42 20 C50 18, 58 17, 65 17 Z" fill="currentColor" opacity="0.7"/>
+              <path d="M45 16 C38 24, 26 25, 22 19 C30 17, 38 16, 45 16 Z" fill="currentColor" opacity="0.7"/>
+            </svg>
+
+            <svg class="w-16 h-14 sm:w-20 sm:h-16 drop-shadow-sm" viewBox="0 0 96 72" fill="none" aria-label="Engagement Rings">
+              <defs>
+                <linearGradient id="ringGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#E7C87E"/>
+                  <stop offset="50%" stop-color="#B8860B"/>
+                  <stop offset="100%" stop-color="#7E5919"/>
+                </linearGradient>
+              </defs>
+              <circle cx="36" cy="42" r="19" stroke="url(#ringGold)" stroke-width="4.2"/>
+              <circle cx="36" cy="42" r="16.5" stroke="#FFF6DF" stroke-width="0.7" opacity="0.7"/>
+              <circle cx="60" cy="42" r="19" stroke="url(#ringGold)" stroke-width="4.2"/>
+              <circle cx="60" cy="42" r="16.5" stroke="#FFF6DF" stroke-width="0.7" opacity="0.7"/>
+              <g transform="translate(65, 16) rotate(16)">
+                <polygon points="0,-9 8,-3 5,4 -5,4 -8,-3" fill="#FFFDF8" stroke="#B8860B" stroke-width="1.3"/>
+                <line x1="-8" y1="-3" x2="8" y2="-3" stroke="#D4AF37" stroke-width="1"/>
+                <line x1="-4" y1="-8" x2="0" y2="4" stroke="#DFC07A" stroke-width="0.8"/>
+                <line x1="4" y1="-8" x2="0" y2="4" stroke="#DFC07A" stroke-width="0.8"/>
+              </g>
+            </svg>
+
+            <svg class="w-16 sm:w-24 h-8 text-gold-500 scale-x-[-1]" viewBox="0 0 100 32" fill="none">
+              <path d="M95 18 Q55 16 10 14" stroke="currentColor" stroke-width="1.2"/>
+              <path d="M75 17 C68 8, 56 7, 52 13 C60 16, 68 17, 75 17 Z" fill="currentColor" opacity="0.85"/>
+              <path d="M55 16 C48 7, 36 6, 32 12 C40 15, 48 16, 55 16 Z" fill="currentColor" opacity="0.85"/>
+              <path d="M35 15 C28 7, 18 6, 14 11 C21 14, 28 15, 35 15 Z" fill="currentColor" opacity="0.85"/>
+              <path d="M65 17 C58 25, 46 26, 42 20 C50 18, 58 17, 65 17 Z" fill="currentColor" opacity="0.7"/>
+              <path d="M45 16 C38 24, 26 25, 22 19 C30 17, 38 16, 45 16 Z" fill="currentColor" opacity="0.7"/>
+            </svg>
+          </div>
+
+          <!-- Couple Names & Parentage Grid: BRIDE 1ST (Deepika), GROOM 2ND (Bhaskar) -->
+          <div class="relative z-10 mx-auto mt-2 grid max-w-2xl grid-cols-1 items-center gap-5 sm:grid-cols-[1fr_auto_1fr] sm:gap-4">
+            <!-- BRIDE (1ST) -->
+            <div class="text-center">
+              <h2 class="font-script text-5xl sm:text-6xl text-gold-600 leading-tight">
+                Deepika
+              </h2>
+              <p class="font-serif text-lg sm:text-xl font-semibold tracking-wide text-gold-700 -mt-1">
+                Manche
+              </p>
+              <p class="mt-2 font-serif text-sm sm:text-base font-medium text-ink-800 leading-snug">
+                D/o Ramakrishna and<br />Aruna Manche
+              </p>
+            </div>
+
+            <!-- Vertical Gold Divider with Ampersand -->
+            <div class="flex sm:flex-col items-center justify-center gap-2 py-1">
+              <span class="h-px w-12 sm:h-10 sm:w-px bg-gold-400/70"></span>
+              <span class="font-serif italic text-2xl sm:text-3xl text-gold-600 px-1">&amp;</span>
+              <span class="h-px w-12 sm:h-10 sm:w-px bg-gold-400/70"></span>
+            </div>
+
+            <!-- GROOM (2ND) -->
+            <div class="text-center">
+              <h2 class="font-script text-5xl sm:text-6xl text-gold-600 leading-tight">
+                Bhaskar
+              </h2>
+              <p class="font-serif text-lg sm:text-xl font-semibold tracking-wide text-gold-700 -mt-1">
+                Nagula
+              </p>
+              <p class="mt-2 font-serif text-sm sm:text-base font-medium text-ink-800 leading-snug">
+                S/o Vishwanatham and<br />Kalyani Nagula
+              </p>
+            </div>
+          </div>
+
+          <!-- Center Ornate Divider -->
+          <div class="relative z-10 mx-auto my-6 sm:my-8 flex items-center justify-center">
+            <svg class="w-48 h-6 text-gold-500" viewBox="0 0 220 28" fill="none">
+              <line x1="10" y1="14" x2="88" y2="14" stroke="currentColor" stroke-width="1" stroke-opacity="0.65"/>
+              <line x1="132" y1="14" x2="210" y2="14" stroke="currentColor" stroke-width="1" stroke-opacity="0.65"/>
+              <path d="M110 4 L114 11 L121 14 L114 17 L110 24 L106 17 L99 14 L106 11 Z" fill="currentColor"/>
+              <circle cx="92" cy="14" r="2" fill="currentColor"/>
+              <circle cx="128" cy="14" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+
+          <!-- Family-Universal Invitation Blessing Line -->
+          <p class="relative z-10 mx-auto max-w-md font-serif italic text-lg sm:text-xl text-ink-800 leading-relaxed">
+            “We would be delighted to have you with us as we celebrate the engagement of Deepika &amp; Bhaskar. Your presence and blessings will add immense joy to this special milestone.”
+          </p>
+
+          <!-- Date & Venue Highlight Box inside the Card -->
+          <div class="relative z-10 mx-auto mt-7 max-w-md border-t border-b border-gold-300/80 py-5 text-left">
+            <!-- Date Row -->
+            <div class="flex items-center gap-4 pb-4 border-b border-gold-300/50">
+              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-gold-400/60 bg-cream-50 text-gold-600 shadow-xs">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <rect x="3" y="4" width="18" height="18" rx="3" ry="3"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                  <circle cx="8" cy="14" r="1" fill="currentColor"></circle>
+                  <circle cx="12" cy="14" r="1" fill="currentColor"></circle>
+                  <circle cx="16" cy="14" r="1" fill="currentColor"></circle>
+                  <circle cx="8" cy="18" r="1" fill="currentColor"></circle>
+                  <circle cx="12" cy="18" r="1" fill="currentColor"></circle>
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-semibold tracking-[0.18em] text-ink-600 uppercase">SUNDAY,</p>
+                <p class="font-serif text-2xl sm:text-[1.7rem] font-bold text-gold-700 leading-tight">
+                  6<sup class="text-sm">th</sup> December 2026
+                </p>
+                <p class="mt-0.5 text-sm font-medium text-ink-800">9:00 AM onwards</p>
+              </div>
+            </div>
+
+            <!-- Venue Row -->
+            <div class="flex items-start gap-4 pt-4">
+              <div class="mt-0.5 flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-gold-400/60 bg-cream-50 text-gold-600 shadow-xs">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="font-serif text-xl sm:text-2xl font-bold text-gold-700 leading-snug">
+                  Kasturba Mahila Mandal Hall
+                </p>
+                <p class="mt-0.5 text-xs sm:text-sm text-ink-800 leading-relaxed">
+                  Kasturba Apartment, Mahila Mandal, Senapati Bapat Marg, Matunga West, Mahalaxmi Sindhi Colony, Mahim, Mumbai, Maharashtra 400016
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Ornate Flourish -->
+          <div class="relative z-10 mx-auto mt-6 flex items-center justify-center">
+            <svg class="w-36 h-5 text-gold-500" viewBox="0 0 180 24" fill="none">
+              <line x1="10" y1="12" x2="70" y2="12" stroke="currentColor" stroke-width="1" stroke-opacity="0.6"/>
+              <line x1="110" y1="12" x2="170" y2="12" stroke="currentColor" stroke-width="1" stroke-opacity="0.6"/>
+              <path d="M90 3 L93 9 L99 12 L93 15 L90 21 L87 15 L81 12 L87 9 Z" fill="currentColor"/>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 2: LIVE COUNTDOWN, CALENDAR & FAMILY SHARE BAR
+         ========================================================= -->
+    <section id="countdown" class="reveal mt-12 rounded-3xl border border-gold-300/80 bg-cream-50/90 p-6 sm:p-9 text-center shadow-card">
+      <p class="text-xs font-semibold tracking-[0.22em] text-gold-600 uppercase">Counting Down To The Auspicious Moment</p>
+      <h2 class="mt-1 font-serif text-3xl sm:text-4xl font-semibold text-ink-800">
+        Celebrating Love &amp; Togetherness
+      </h2>
+
+      <!-- 4-Box Countdown Grid -->
+      <div class="mx-auto mt-6 grid max-w-xl grid-cols-4 gap-2.5 sm:gap-4">
+        <div class="rounded-2xl border border-gold-300 bg-gradient-to-b from-cream-50 to-cream-100 p-3 sm:p-5 shadow-xs">
+          <span id="cd-days" class="block font-serif text-3xl sm:text-5xl font-bold text-gold-700">--</span>
+          <span class="mt-1 block text-[10px] sm:text-xs font-semibold tracking-widest text-ink-600 uppercase">Days</span>
+        </div>
+        <div class="rounded-2xl border border-gold-300 bg-gradient-to-b from-cream-50 to-cream-100 p-3 sm:p-5 shadow-xs">
+          <span id="cd-hours" class="block font-serif text-3xl sm:text-5xl font-bold text-gold-700">--</span>
+          <span class="mt-1 block text-[10px] sm:text-xs font-semibold tracking-widest text-ink-600 uppercase">Hours</span>
+        </div>
+        <div class="rounded-2xl border border-gold-300 bg-gradient-to-b from-cream-50 to-cream-100 p-3 sm:p-5 shadow-xs">
+          <span id="cd-minutes" class="block font-serif text-3xl sm:text-5xl font-bold text-gold-700">--</span>
+          <span class="mt-1 block text-[10px] sm:text-xs font-semibold tracking-widest text-ink-600 uppercase">Minutes</span>
+        </div>
+        <div class="rounded-2xl border border-gold-300 bg-gradient-to-b from-cream-50 to-cream-100 p-3 sm:p-5 shadow-xs">
+          <span id="cd-seconds" class="block font-serif text-3xl sm:text-5xl font-bold text-gold-700">--</span>
+          <span class="mt-1 block text-[10px] sm:text-xs font-semibold tracking-widest text-ink-600 uppercase">Seconds</span>
+        </div>
+      </div>
+
+      <p id="cd-status" class="mt-4 font-serif italic text-base text-ink-600">
+        Sunday, 6th December 2026 • 9:00 AM IST
+      </p>
+
+      <!-- Save The Date & Universal Family Sharing Actions -->
+      <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+        <a
+          href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Deepika+%26+Bhaskar%27s+Engagement+Ceremony&dates=20261206T033000Z/20261206T083000Z&details=Together+with+our+families+we+cordially+invite+you+to+the+Engagement+Ceremony+of+Deepika+Manche+%26+Bhaskar+Nagula.+Google+Maps:+https://maps.app.goo.gl/mf4utgJ7q4cc7kc29&location=Kasturba+Mahila+Mandal+Hall,+Kasturba+Apartment,+Mahila+Mandal,+Senapati+Bapat+Marg,+Matunga+West,+Mahalaxmi+Sindhi+Colony,+Mahim,+Mumbai,+Maharashtra+400016"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 rounded-full bg-gold-600 px-5 py-2.5 text-xs sm:text-sm font-medium text-white shadow-gold-glow transition hover:bg-gold-700 active:scale-[0.99]"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          Add to Google Calendar
+        </a>
+
+        <button
+          type="button"
+          onclick="downloadICS()"
+          class="inline-flex items-center gap-2 rounded-full border border-gold-500 bg-cream-50 px-5 py-2.5 text-xs sm:text-sm font-medium text-gold-700 transition hover:bg-cream-200/70 active:scale-[0.99]"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3"></path>
+          </svg>
+          Download .ics Calendar
+        </button>
+
+        <button
+          type="button"
+          onclick="shareInvitation()"
+          class="inline-flex items-center gap-2 rounded-full border border-sage-500/50 bg-sage-500/10 px-5 py-2.5 text-xs sm:text-sm font-medium text-sage-600 transition hover:bg-sage-500/20 active:scale-[0.99]"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path>
+          </svg>
+          Share Invitation
+        </button>
+
+        <button
+          type="button"
+          onclick="toggleQRModal(true)"
+          class="inline-flex items-center gap-2 rounded-full border border-gold-400/80 bg-cream-100 px-4 py-2.5 text-xs sm:text-sm font-medium text-ink-800 transition hover:bg-cream-200/80 active:scale-[0.99]"
+        >
+          <svg class="w-4 h-4 text-gold-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h7v7H3V3zm11 0h7v7h-7V3zM3 14h7v7H3v-7zm11 3h3v4h-3v-4zm4-3h3v3h-3v-3zm0 5h3v2h-3v-2z"></path>
+          </svg>
+          View QR Code
+        </button>
+      </div>
+
+      <p id="share-feedback" class="mt-3 hidden text-xs font-medium text-sage-600">
+        Invitation link and message copied to clipboard!
+      </p>
+    </section>
+
+    <!-- =========================================================
+         SECTION 3: MORNING CEREMONY TIMELINE
+         ========================================================= -->
+    <section id="schedule" class="reveal mt-10 rounded-3xl border border-gold-300/80 bg-cream-50/90 p-6 sm:p-9 shadow-card">
+      <div class="text-center">
+        <p class="text-xs font-semibold tracking-[0.22em] text-gold-600 uppercase">Sunday Morning Celebrations</p>
+        <h2 class="mt-1 font-serif text-3xl sm:text-4xl font-semibold text-ink-800">
+          Ceremony Schedule
+        </h2>
+      </div>
+
+      <!-- Vertical Gold-Line Itinerary -->
+      <div class="relative mx-auto mt-8 max-w-lg pl-8 sm:pl-10">
+        <!-- Vertical Gold Spine -->
+        <div class="absolute top-2 bottom-2 left-3 sm:left-4 w-0.5 bg-gradient-to-b from-gold-300 via-gold-500 to-gold-300"></div>
+
+        <!-- Milestone 1 -->
+        <div class="relative pb-8">
+          <span class="absolute -left-[25px] sm:-left-[29px] top-1.5 flex h-4 w-4 items-center justify-center rounded-full border-2 border-gold-600 bg-cream-50">
+            <span class="h-1.5 w-1.5 rounded-full bg-gold-600"></span>
+          </span>
+          <span class="inline-block rounded-full bg-gold-500/15 px-3 py-0.5 text-xs font-semibold tracking-wider text-gold-700">
+            9:00 AM
+          </span>
+          <h3 class="mt-1.5 font-serif text-2xl font-bold text-ink-800">
+            Guest Welcome &amp; Morning Refreshments
+          </h3>
+          <p class="mt-1 text-sm text-ink-600 leading-relaxed">
+            Warm reception by the Manche &amp; Nagula families with traditional welcome beverages and morning breakfast.
+          </p>
+        </div>
+
+        <!-- Milestone 2 -->
+        <div class="relative pb-8">
+          <span class="absolute -left-[25px] sm:-left-[29px] top-1.5 flex h-4 w-4 items-center justify-center rounded-full border-2 border-gold-600 bg-cream-50">
+            <span class="h-1.5 w-1.5 rounded-full bg-gold-600"></span>
+          </span>
+          <span class="inline-block rounded-full bg-blush-100 px-3 py-0.5 text-xs font-semibold tracking-wider text-gold-700">
+            10:30 AM
+          </span>
+          <h3 class="mt-1.5 font-serif text-2xl font-bold text-ink-800">
+            Auspicious Ring Exchange &amp; Blessings
+          </h3>
+          <p class="mt-1 text-sm text-ink-600 leading-relaxed">
+            Sacred ceremony, exchange of rings between Deepika &amp; Bhaskar, and heartfelt blessings from elders and loved ones.
+          </p>
+        </div>
+
+        <!-- Milestone 3 -->
+        <div class="relative">
+          <span class="absolute -left-[25px] sm:-left-[29px] top-1.5 flex h-4 w-4 items-center justify-center rounded-full border-2 border-gold-600 bg-cream-50">
+            <span class="h-1.5 w-1.5 rounded-full bg-gold-600"></span>
+          </span>
+          <span class="inline-block rounded-full bg-gold-500/15 px-3 py-0.5 text-xs font-semibold tracking-wider text-gold-700">
+            12:30 PM
+          </span>
+          <h3 class="mt-1.5 font-serif text-2xl font-bold text-ink-800">
+            Celebratory Lunch
+          </h3>
+          <p class="mt-1 text-sm text-ink-600 leading-relaxed">
+            Festive traditional feast and joyful conversations together with family and friends.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 4: VENUE, GOOGLE MAP & MUMBAI TRANSIT GUIDE
+         ========================================================= -->
+    <section id="venue" class="reveal mt-10 rounded-3xl border border-gold-300/80 bg-cream-50/90 p-6 sm:p-9 shadow-card">
+      <div class="text-center">
+        <p class="text-xs font-semibold tracking-[0.22em] text-gold-600 uppercase">Venue &amp; Directions</p>
+        <h2 class="mt-1 font-serif text-3xl sm:text-4xl font-semibold text-ink-800">
+          Getting There
+        </h2>
+      </div>
+
+      <!-- Venue Details & Map Card -->
+      <div class="mt-6 overflow-hidden rounded-2xl border border-gold-300 bg-cream-100/50">
+        <div class="p-5 sm:p-6">
+          <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
+            <div>
+              <span class="inline-block rounded-full bg-blush-100 px-3 py-1 text-[11px] font-semibold tracking-wider text-gold-700 uppercase">
+                Matunga West • Mumbai
+              </span>
+              <h3 class="mt-2 font-serif text-2xl font-bold text-ink-800">
+                Kasturba Mahila Mandal Hall
+              </h3>
+              <p class="mt-1 text-sm text-ink-600 leading-relaxed">
+                Kasturba Apartment, Mahila Mandal, Senapati Bapat Marg, Matunga West, Mahalaxmi Sindhi Colony, Mahim, Mumbai, Maharashtra 400016
+              </p>
+            </div>
+
+            <div class="flex shrink-0 flex-wrap gap-2.5">
+              <a
+                href="https://maps.app.goo.gl/mf4utgJ7q4cc7kc29"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 rounded-full bg-gold-600 px-5 py-2.5 text-xs sm:text-sm font-medium text-white shadow-gold-glow transition hover:bg-gold-700"
+              >
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/>
+                </svg>
+                Open in Google Maps
+              </a>
+              <button
+                type="button"
+                onclick="copyAddress()"
+                class="inline-flex items-center gap-1.5 rounded-full border border-gold-400 bg-cream-50 px-4 py-2.5 text-xs sm:text-sm font-medium text-gold-700 transition hover:bg-cream-200/70"
+              >
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                  <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path>
+                </svg>
+                <span id="copy-btn-text">Copy Address</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Embedded Google Map Preview -->
+        <div class="h-64 sm:h-72 w-full border-t border-gold-300/80 bg-cream-200">
+          <iframe
+            title="Kasturba Mahila Mandal Hall Location Map"
+            src="https://www.google.com/maps?q=Kasturba+Mahila+Mandal+Hall,+Senapati+Bapat+Marg,+Matunga+West,+Mumbai+400016&output=embed"
+            class="h-full w-full border-0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Mumbai Local Train & Road Transit Guide -->
+      <div class="mt-6 grid grid-cols-1 gap-3.5 sm:grid-cols-3">
+        <div class="rounded-2xl border border-gold-300/70 bg-cream-100/75 p-4">
+          <p class="text-[11px] font-semibold tracking-wider text-gold-600 uppercase">Western Line</p>
+          <h4 class="mt-1 font-serif text-lg font-bold text-ink-800">Matunga Road Station</h4>
+          <p class="mt-1 text-xs text-ink-600 leading-relaxed">
+            ~5 mins walk or short auto ride (400 m) towards Senapati Bapat Marg, Matunga West.
+          </p>
+        </div>
+
+        <div class="rounded-2xl border border-gold-300/70 bg-cream-100/75 p-4">
+          <p class="text-[11px] font-semibold tracking-wider text-gold-600 uppercase">Central Line</p>
+          <h4 class="mt-1 font-serif text-lg font-bold text-ink-800">Matunga Station</h4>
+          <p class="mt-1 text-xs text-ink-600 leading-relaxed">
+            ~10 mins auto/taxi ride across the bridge from Matunga (Central) or Mahim Junction.
+          </p>
+        </div>
+
+        <div class="rounded-2xl border border-gold-300/70 bg-cream-100/75 p-4">
+          <p class="text-[11px] font-semibold tracking-wider text-gold-600 uppercase">By Road</p>
+          <h4 class="mt-1 font-serif text-lg font-bold text-ink-800">Senapati Bapat Marg</h4>
+          <p class="mt-1 text-xs text-ink-600 leading-relaxed">
+            Located directly on Tulsi Pipe Road at Mahalaxmi Sindhi Colony, Mahim / Matunga West.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 5: INTERACTIVE BLESSINGS & WISHES WALL
+         ========================================================= -->
+    <section id="blessings" class="reveal mt-10 rounded-3xl border border-gold-300/80 bg-cream-50/90 p-6 sm:p-9 shadow-card">
+      <div class="text-center">
+        <p class="text-xs font-semibold tracking-[0.22em] text-gold-600 uppercase">Shower Your Love &amp; Good Wishes</p>
+        <h2 class="mt-1 font-serif text-3xl sm:text-4xl font-semibold text-ink-800">
+          RSVP &amp; Blessings Wall
+        </h2>
+        <p class="mx-auto mt-2 max-w-lg text-sm text-ink-600">
+          Share your warm wishes for Deepika &amp; Bhaskar or send an instant RSVP message to the families.
+        </p>
+      </div>
+
+      <!-- Guestbook & RSVP Form -->
+      <form id="blessing-form" class="mx-auto mt-7 max-w-xl space-y-4">
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div>
+            <label for="guest-name" class="block text-xs font-semibold tracking-wider text-ink-600 uppercase">Your Name *</label>
+            <input
+              type="text"
+              id="guest-name"
+              required
+              placeholder="e.g., Rajesh & Family"
+              class="mt-1.5 w-full rounded-xl border border-gold-300 bg-cream-50 px-4 py-2.5 text-sm text-ink-800 placeholder-ink-400 focus:border-gold-500 focus:outline-none focus:ring-2 focus:ring-gold-400/20"
+            />
+          </div>
+
+          <div>
+            <label for="family-side" class="block text-xs font-semibold tracking-wider text-ink-600 uppercase">Relation / Side</label>
+            <select
+              id="family-side"
+              class="mt-1.5 w-full rounded-xl border border-gold-300 bg-cream-50 px-4 py-2.5 text-sm text-ink-800 focus:border-gold-500 focus:outline-none focus:ring-2 focus:ring-gold-400/20"
+            >
+              <option value="Bride's Family & Friends">Bride's Family &amp; Friends (Manche)</option>
+              <option value="Groom's Family & Friends">Groom's Family &amp; Friends (Nagula)</option>
+              <option value="Well-Wisher">Well-Wisher</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div>
+            <label for="attending-status" class="block text-xs font-semibold tracking-wider text-ink-600 uppercase">Attendance</label>
+            <select
+              id="attending-status"
+              class="mt-1.5 w-full rounded-xl border border-gold-300 bg-cream-50 px-4 py-2.5 text-sm text-ink-800 focus:border-gold-500 focus:outline-none focus:ring-2 focus:ring-gold-400/20"
+            >
+              <option value="Joyfully Attending">Joyfully Attending</option>
+              <option value="Sending Blessings from Afar">Sending Blessings from Afar</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="guest-count" class="block text-xs font-semibold tracking-wider text-ink-600 uppercase">Guests Joining</label>
+            <select
+              id="guest-count"
+              class="mt-1.5 w-full rounded-xl border border-gold-300 bg-cream-50 px-4 py-2.5 text-sm text-ink-800 focus:border-gold-500 focus:outline-none focus:ring-2 focus:ring-gold-400/20"
+            >
+              <option value="1 Guest">1 Guest</option>
+              <option value="2 Guests" selected>2 Guests</option>
+              <option value="3 Guests">3 Guests</option>
+              <option value="4 Guests">4 Guests</option>
+              <option value="5+ Family Members">5+ Family Members</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label for="blessing-message" class="block text-xs font-semibold tracking-wider text-ink-600 uppercase">Your Blessing / Message *</label>
+          <textarea
+            id="blessing-message"
+            rows="3"
+            required
+            placeholder="Wishing Deepika & Bhaskar a lifetime of love, joy, and togetherness..."
+            class="mt-1.5 w-full rounded-xl border border-gold-300 bg-cream-50 px-4 py-2.5 text-sm text-ink-800 placeholder-ink-400 focus:border-gold-500 focus:outline-none focus:ring-2 focus:ring-gold-400/20"
+          ></textarea>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
+          <button
+            type="submit"
+            class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full bg-gold-600 px-7 py-3 text-sm font-medium text-white shadow-gold-glow transition hover:bg-gold-700 active:scale-[0.99]"
+          >
+            <span>Post Blessing</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+            </svg>
+          </button>
+
+          <button
+            type="button"
+            onclick="sendWishViaWhatsApp()"
+            class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full border border-gold-500 bg-cream-50 px-6 py-3 text-sm font-medium text-gold-700 transition hover:bg-cream-200/70"
+          >
+            Send via WhatsApp
+          </button>
+        </div>
+      </form>
+
+      <!-- Confirmation Toast -->
+      <div id="toast-banner" class="mx-auto mt-4 hidden max-w-md rounded-xl border border-sage-500/40 bg-sage-500/10 px-4 py-2.5 text-center text-xs sm:text-sm font-medium text-sage-600">
+        Thank you! Your blessing has been posted to the wall below.
+      </div>
+
+      <!-- Blessings Wall Grid -->
+      <div class="mt-9 border-t border-gold-300/70 pt-7">
+        <h3 class="text-center font-serif text-2xl font-semibold text-ink-800">
+          Warm Wishes &amp; Blessings
+        </h3>
+        <div id="blessings-wall" class="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <!-- Rendered dynamically by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         FOOTER (MANCHE & NAGULA FAMILIES — BRIDE FIRST)
+         ========================================================= -->
+    <footer class="reveal mt-14 text-center">
+      <div class="mx-auto mb-4 flex items-center justify-center">
+        <svg class="w-40 h-6 text-gold-500" viewBox="0 0 200 28" fill="none">
+          <line x1="10" y1="14" x2="78" y2="14" stroke="currentColor" stroke-width="1" stroke-opacity="0.6"/>
+          <line x1="122" y1="14" x2="190" y2="14" stroke="currentColor" stroke-width="1" stroke-opacity="0.6"/>
+          <path d="M100 3 L104 11 L112 14 L104 17 L100 25 L96 17 L88 14 L96 11 Z" fill="currentColor"/>
+        </svg>
+      </div>
+      <p class="font-serif italic text-lg text-ink-600">With warm regards,</p>
+      <p class="mt-1 font-serif text-2xl sm:text-3xl font-semibold text-gold-700">
+        The Manche &amp; Nagula Families
+      </p>
+      <p class="mt-4 text-xs tracking-widest text-ink-400 uppercase">
+        Deepika &amp; Bhaskar • 06.12.2026
+      </p>
+    </footer>
+
+  </main>
+
+  <!-- =========================================================
+       SHAREABLE QR CODE MODAL
+       ========================================================= -->
+  <div id="qr-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-ink-800/50 p-4 backdrop-blur-xs" role="dialog" aria-modal="true" aria-labelledby="qr-modal-title">
+    <div class="relative w-full max-w-sm rounded-3xl border-2 border-gold-400 bg-cream-50 p-6 sm:p-8 text-center shadow-2xl">
+      <button
+        type="button"
+        onclick="toggleQRModal(false)"
+        aria-label="Close QR Code modal"
+        class="absolute top-4 right-4 flex h-8 w-8 items-center justify-center rounded-full border border-gold-300 bg-cream-100 text-ink-600 hover:bg-cream-200"
+      >
+        ✕
+      </button>
+
+      <p class="text-[11px] font-semibold tracking-[0.22em] text-gold-600 uppercase">Scan Or Screenshot To Share</p>
+      <h3 id="qr-modal-title" class="mt-1 font-serif text-2xl font-bold text-ink-800">
+        Deepika &amp; Bhaskar
+      </h3>
+      <p class="text-xs text-ink-600">Engagement Ceremony • 6th December 2026</p>
+
+      <!-- Gold-Framed Crisp QR Code Container -->
+      <div class="mx-auto my-5 flex h-52 w-52 items-center justify-center rounded-2xl border-2 border-gold-400 bg-white p-3 shadow-inner">
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&color=6E4D16&bgcolor=FFFFFF&margin=4&data=https%3A%2F%2Fbhaskarnagula.github.io%2FBhaskar-Deepika%2F"
+          alt="QR Code for Deepika & Bhaskar Engagement Invitation"
+          class="h-full w-full object-contain"
+          onerror="this.style.display='none'; document.getElementById('qr-fallback-box').classList.remove('hidden');"
+        />
+        <div id="qr-fallback-box" class="hidden text-xs font-medium text-gold-700">
+          https://bhaskarnagula.github.io/Bhaskar-Deepika/
+        </div>
+      </div>
+
+      <p class="break-all font-mono text-[11px] text-ink-600">
+        bhaskarnagula.github.io/Bhaskar-Deepika
+      </p>
+
+      <button
+        type="button"
+        onclick="shareInvitation()"
+        class="mt-5 w-full rounded-full bg-gold-600 px-5 py-2.5 text-xs font-medium text-white shadow-gold-glow transition hover:bg-gold-700"
+      >
+        Copy / Share Invitation Link
+      </button>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       JAVASCRIPT: ENVELOPE, AMBIENT CHIMES, COUNTDOWN, QR & WALL
+       ========================================================= -->
+  <script>
+    const INVITE_URL = "https://bhaskarnagula.github.io/Bhaskar-Deepika/";
+
+    // ---------------------------------------------------------
+    // 1. SYNTHESIZED AMBIENT HARP/CHIME MUSIC (WEB AUDIO API)
+    // ---------------------------------------------------------
+    let audioCtx = null;
+    let chimeTimer = null;
+    let isMusicPlaying = false;
+
+    function playWarmChord() {
+      if (!audioCtx || !isMusicPlaying) return;
+      const notes = [261.63, 293.66, 329.63, 392.00, 440.00, 523.25, 659.25];
+      const freq = notes[Math.floor(Math.random() * notes.length)];
+      const now = audioCtx.currentTime;
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(freq, now);
+
+      gain.gain.setValueAtTime(0.0001, now);
+      gain.gain.exponentialRampToValueAtTime(0.045, now + 0.15);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + 3.2);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start(now);
+      osc.stop(now + 3.3);
+    }
+
+    function startAmbientMusic() {
+      try {
+        if (!audioCtx) {
+          const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+          audioCtx = new AudioContextClass();
+        }
+        if (audioCtx.state === "suspended") {
+          audioCtx.resume();
+        }
+        if (!isMusicPlaying) {
+          isMusicPlaying = true;
+          updateAudioIcons();
+          playWarmChord();
+          chimeTimer = setInterval(playWarmChord, 1900);
+        }
+      } catch (e) {}
+    }
+
+    function stopAmbientMusic() {
+      isMusicPlaying = false;
+      if (chimeTimer) {
+        clearInterval(chimeTimer);
+        chimeTimer = null;
+      }
+      updateAudioIcons();
+    }
+
+    function toggleAmbientMusic() {
+      if (isMusicPlaying) {
+        stopAmbientMusic();
+      } else {
+        startAmbientMusic();
+      }
+    }
+
+    function updateAudioIcons() {
+      const offIcon = document.getElementById("icon-sound-off");
+      const onIcon = document.getElementById("icon-sound-on");
+      if (isMusicPlaying) {
+        offIcon.classList.add("hidden");
+        onIcon.classList.remove("hidden");
+      } else {
+        onIcon.classList.add("hidden");
+        offIcon.classList.remove("hidden");
+      }
+    }
+
+    // ---------------------------------------------------------
+    // 2. WAX-SEAL ENVELOPE REVEAL
+    // ---------------------------------------------------------
+    function openEnvelope(silent = false) {
+      const overlay = document.getElementById("envelope-overlay");
+      if (!overlay || overlay.classList.contains("opening")) return;
+
+      if (!silent) {
+        startAmbientMusic();
+      }
+
+      overlay.classList.add("opening");
+      setTimeout(() => {
+        overlay.classList.add("opened");
+      }, 650);
+    }
+
+    // ---------------------------------------------------------
+    // 3. FLOATING GOLD DUST & BLUSH PETALS HTML5 CANVAS
+    // ---------------------------------------------------------
+    (function initGoldDustCanvas() {
+      const canvas = document.getElementById("gold-dust-canvas");
+      const ctx = canvas.getContext("2d");
+      let width = (canvas.width = window.innerWidth);
+      let height = (canvas.height = window.innerHeight);
+
+      window.addEventListener("resize", () => {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      });
+
+      const particles = Array.from({ length: 34 }, (_, i) => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        r: Math.random() * 2.6 + 1.1,
+        vy: -(Math.random() * 0.35 + 0.15),
+        vx: (Math.random() - 0.5) * 0.3,
+        alpha: Math.random() * 0.45 + 0.18,
+        isBlush: i % 3 === 0
+      }));
+
+      function draw() {
+        ctx.clearRect(0, 0, width, height);
+        for (const p of particles) {
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.y < -10) {
+            p.y = height + 10;
+            p.x = Math.random() * width;
+          }
+          if (p.x < -10) p.x = width + 10;
+          if (p.x > width + 10) p.x = -10;
+
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = p.isBlush
+            ? `rgba(232, 180, 184, ${p.alpha})`
+            : `rgba(212, 175, 55, ${p.alpha})`;
+          ctx.fill();
+        }
+        requestAnimationFrame(draw);
+      }
+      draw();
+    })();
+
+    // ---------------------------------------------------------
+    // 4. LIVE COUNTDOWN TIMER TO 6TH DEC 2026, 9:00 AM IST
+    // ---------------------------------------------------------
+    (function initCountdown() {
+      const targetDate = new Date("2026-12-06T09:00:00+05:30").getTime();
+      const daysEl = document.getElementById("cd-days");
+      const hoursEl = document.getElementById("cd-hours");
+      const minsEl = document.getElementById("cd-minutes");
+      const secsEl = document.getElementById("cd-seconds");
+      const statusEl = document.getElementById("cd-status");
+
+      function update() {
+        const diff = targetDate - Date.now();
+        if (diff <= 0) {
+          daysEl.textContent = "00";
+          hoursEl.textContent = "00";
+          minsEl.textContent = "00";
+          secsEl.textContent = "00";
+          statusEl.textContent = "Today is the auspicious Engagement Ceremony! We look forward to celebrating with you.";
+          return;
+        }
+        daysEl.textContent = String(Math.floor(diff / 86400000)).padStart(2, "0");
+        hoursEl.textContent = String(Math.floor((diff % 86400000) / 3600000)).padStart(2, "0");
+        minsEl.textContent = String(Math.floor((diff % 3600000) / 60000)).padStart(2, "0");
+        secsEl.textContent = String(Math.floor((diff % 60000) / 1000)).padStart(2, "0");
+      }
+
+      update();
+      setInterval(update, 1000);
+    })();
+
+    // ---------------------------------------------------------
+    // 5. DOWNLOADABLE .ICS CALENDAR FILE (APPLE / OUTLOOK)
+    // ---------------------------------------------------------
+    function downloadICS() {
+      const ics = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//Deepika & Bhaskar Engagement//Invitation//EN",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        "BEGIN:VEVENT",
+        "UID:deepika-bhaskar-engagement-20261206@invitation",
+        "DTSTAMP:20261120T120000Z",
+        "DTSTART:20261206T033000Z",
+        "DTEND:20261206T083000Z",
+        "SUMMARY:Deepika & Bhaskar's Engagement Ceremony",
+        "DESCRIPTION:Together with our families we cordially invite you to the Engagement Ceremony of Deepika Manche & Bhaskar Nagula. Google Maps: https://maps.app.goo.gl/mf4utgJ7q4cc7kc29",
+        "LOCATION:Kasturba Mahila Mandal Hall, Kasturba Apartment, Mahila Mandal, Senapati Bapat Marg, Matunga West, Mahalaxmi Sindhi Colony, Mahim, Mumbai, Maharashtra 400016",
+        "STATUS:CONFIRMED",
+        "END:VEVENT",
+        "END:VCALENDAR"
+      ].join("\r\n");
+
+      const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.setAttribute("download", "Deepika_Bhaskar_Engagement_6Dec2026.ics");
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // ---------------------------------------------------------
+    // 6. COPY VENUE ADDRESS & UNIVERSAL FAMILY SHARE
+    // ---------------------------------------------------------
+    function copyTextFallback(text) {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+
+    function copyAddress() {
+      const addr = "Kasturba Mahila Mandal Hall, Kasturba Apartment, Mahila Mandal, Senapati Bapat Marg, Matunga West, Mahalaxmi Sindhi Colony, Mahim, Mumbai, Maharashtra 400016";
+      copyTextFallback(addr);
+      const btnText = document.getElementById("copy-btn-text");
+      btnText.textContent = "Copied!";
+      setTimeout(() => { btnText.textContent = "Copy Address"; }, 2500);
+    }
+
+    function shareInvitation() {
+      const shareText = [
+        "✨ *Engagement Ceremony Invitation* ✨",
+        "",
+        "Together with our families we cordially invite you to the Engagement Ceremony of",
+        "*Deepika Manche* (D/o Ramakrishna & Aruna Manche)",
+        "&",
+        "*Bhaskar Nagula* (S/o Vishwanatham & Kalyani Nagula)",
+        "",
+        "📅 *Date:* Sunday, 6th December 2026",
+        "⏰ *Time:* 9:00 AM onwards",
+        "📍 *Venue:* Kasturba Mahila Mandal Hall, Senapati Bapat Marg, Matunga West, Mumbai 400016",
+        "🗺️ *Map:* https://maps.app.goo.gl/mf4utgJ7q4cc7kc29",
+        "",
+        `💌 *Digital Invitation:* ${INVITE_URL}`,
+        "",
+        "With warm regards,",
+        "*The Manche & Nagula Families*"
+      ].join("\n");
+
+      if (navigator.share) {
+        navigator.share({
+          title: "Deepika & Bhaskar — Engagement Ceremony",
+          text: shareText,
+          url: INVITE_URL
+        }).catch(() => {});
+      } else {
+        copyTextFallback(shareText);
+        const feedback = document.getElementById("share-feedback");
+        feedback.classList.remove("hidden");
+        setTimeout(() => feedback.classList.add("hidden"), 4000);
+      }
+    }
+
+    function toggleQRModal(show) {
+      const modal = document.getElementById("qr-modal");
+      if (show) {
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+      } else {
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+      }
+    }
+
+    // ---------------------------------------------------------
+    // 7. BLESSINGS & WISHES WALL (LOCALSTORAGE + WHATSAPP)
+    // ---------------------------------------------------------
+    const STORAGE_KEY = "deepika_bhaskar_blessings_v1";
+    const defaultBlessings = [
+      {
+        name: "The Manche & Nagula Families",
+        side: "Host Families",
+        status: "Welcoming All Guests",
+        message: "We look forward to celebrating this joyous milestone with your warmth, presence, and blessings."
+      },
+      {
+        name: "Family & Well-Wishers",
+        side: "Friends & Relatives",
+        status: "Joyfully Attending",
+        message: "Heartiest congratulations to Deepika & Bhaskar! Wishing you both a lifetime of happiness, love, and harmony."
+      }
+    ];
+
+    function getBlessings() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        }
+      } catch (e) {}
+      return defaultBlessings;
+    }
+
+    function escapeHTML(str) {
+      const div = document.createElement("div");
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    function renderBlessings() {
+      const wall = document.getElementById("blessings-wall");
+      wall.innerHTML = getBlessings().map(item => `
+        <article class="rounded-2xl border border-gold-300/70 bg-cream-100/75 p-5 shadow-2xs transition hover:border-gold-400">
+          <div class="flex items-start justify-between gap-2">
+            <div>
+              <h4 class="font-serif text-lg font-bold text-ink-800">${escapeHTML(item.name)}</h4>
+              <p class="text-[11px] font-medium text-gold-600">${escapeHTML(item.side)}</p>
+            </div>
+            <span class="rounded-full bg-blush-100 px-2.5 py-0.5 text-[10px] font-semibold text-gold-700">
+              ${escapeHTML(item.status)}
+            </span>
+          </div>
+          <p class="mt-3 font-serif italic text-base text-ink-600 leading-relaxed">
+            “${escapeHTML(item.message)}”
+          </p>
+        </article>
+      `).join("");
+    }
+
+    document.getElementById("blessing-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const name = document.getElementById("guest-name").value.trim();
+      const side = document.getElementById("family-side").value;
+      const status = document.getElementById("attending-status").value;
+      const count = document.getElementById("guest-count").value;
+      const message = document.getElementById("blessing-message").value.trim();
+      if (!name || !message) return;
+
+      const statusBadge = status === "Joyfully Attending" ? `Attending (${count})` : status;
+      const updated = [{ name, side, status: statusBadge, message }, ...getBlessings()];
+
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+      } catch (err) {}
+
+      renderBlessings();
+      this.reset();
+
+      const toast = document.getElementById("toast-banner");
+      toast.classList.remove("hidden");
+      setTimeout(() => toast.classList.add("hidden"), 4500);
+    });
+
+    function sendWishViaWhatsApp() {
+      const name = document.getElementById("guest-name").value.trim() || "A Well-Wisher";
+      const side = document.getElementById("family-side").value;
+      const status = document.getElementById("attending-status").value;
+      const count = document.getElementById("guest-count").value;
+      const msg = document.getElementById("blessing-message").value.trim() || "Heartiest congratulations and warm blessings to Deepika & Bhaskar!";
+
+      const text = [
+        "🌸 *Engagement RSVP & Blessings* 🌸",
+        `*From:* ${name} (${side})`,
+        `*Attendance:* ${status} — ${count}`,
+        `*Blessings:* "${msg}"`
+      ].join("\n");
+
+      window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, "_blank", "noopener,noreferrer");
+    }
+
+    // ---------------------------------------------------------
+    // 8. SCROLL REVEAL INITIALIZATION
+    // ---------------------------------------------------------
+    renderBlessings();
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add("visible");
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
